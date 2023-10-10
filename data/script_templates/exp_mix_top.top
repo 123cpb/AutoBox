@@ -1,0 +1,13 @@
+
+
+; Include mol1 and mol2topology
+#include "mol1.itp"
+#include "mol2.itp"
+
+[ system ]
+ mix
+
+[ molecules ]
+; Compound        nmols
+ mol1type         X
+ mol2type	   Y    

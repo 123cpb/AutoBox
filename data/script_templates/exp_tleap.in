@@ -1,0 +1,8 @@
+source oldff/leaprc.ff99SB
+source leaprc.gaff
+MOL = loadmol2 MOLECULE.mol2
+loadamberparams MOLECULE.frcmod
+saveoff MOL MOL.lib
+saveamberparm MOL MOLECULE.prmtop MOLECULE.inpcrd
+quit
+
