@@ -2,7 +2,8 @@
 
 * Automatically generate Gromacs structure files from Gaussian output files. 
 * Place gaussian outputs in the data/gaussian_outputs file
-* Requires python environment with acpype
+* Requires python environment with acpype. pip install -r requirements.txt to get modules
+
 
 **What it does** 
 Antechamber - convert .log to mol2 antechamber and tleap. parameterises molecules
